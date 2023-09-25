@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Card = ({ card }) => {
     const { id, picture, title, category_bg, card_bg, text_color, description, price, category } = card || {}
 
@@ -15,9 +17,11 @@ const Card = ({ card }) => {
 
     return (
         <div>
-            <div className="card md:w-56 card-compact bg-base-100 shadow-xl" style={cardStyle}>
-                <figure ><img src={picture} alt="" /></figure>
-                <div className="card-body p-4">
+           <Link to={`/cards/${id}`}>
+           
+           <div className="card rounded-lg md:w-56 card-compact bg-base-100 shadow-xl" style={cardStyle}>
+                <figure  ><img className="w-full rounded-t-lg"src={picture} alt="" /></figure>
+                <div className="card-body p-2 ">
                     <div className="card-actions">
                         <button className="btn py-1 px-3 rounded-md" style={buttonStyle}>{category}</button>
                     </div>
@@ -26,6 +30,8 @@ const Card = ({ card }) => {
 
                 </div>
             </div>
+           
+           </Link>
         </div>
     );
 };
