@@ -19,7 +19,7 @@
         "category": "Food",
         "category_bg": "#e2943a",
         "card_bg": "#deb585",
-        "text_color": "orange",
+        "text_color": "#FE5000",
         "description": "we believe that access to nutritious and wholesome food is a fundamental right that every individual should enjoy. Our Better Food for Everyone campaign is dedicated to making this belief a reality.",
         "price": 290.00
     },
@@ -53,7 +53,7 @@
         "category": "Food",
         "category_bg": "#e2943a",
         "card_bg": "#deb585",
-        "text_color": "orange",
+        "text_color": "#FE5000",
         "description": "we believe that access to nutritious and wholesome food is a fundamental right that every individual should enjoy. Our Better Food for Everyone campaign is dedicated to making this belief a reality.",
        "price": 290.00
     },
@@ -87,7 +87,7 @@
         "category": "Food",
         "category_bg": "#e2943a",
         "card_bg": "#deb585",
-        "text_color": "orange",
+        "text_color": "#FE5000",
         "description": "we believe that access to nutritious and wholesome food is a fundamental right that every individual should enjoy. Our Better Food for Everyone campaign is dedicated to making this belief a reality.",
         "price": 290.00
     },
