@@ -10,6 +10,7 @@ const Cards = ({cards}) => {
                     cards?.map(card => <Card key={card.id} card={card}></Card> )
                 }
             </div>
+          
         </div>
     );
 };
