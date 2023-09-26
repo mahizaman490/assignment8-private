@@ -24,9 +24,10 @@ const SingleDonationCard = ({card}) => {
             localStorage.setItem('donation',JSON.stringify(addedDonationArray))
             
             swal("Good job!", "Your Donation successful!", "success");
+
             }else{
              
-                swal("already donated!", "already donated for this!!!", "error");
+              return swal("already donated!", "already donated for this!!!", "error");
              
             }
          
