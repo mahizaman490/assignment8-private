@@ -1,7 +1,7 @@
 import swal from "sweetalert";
 const SingleDonationCard = ({card}) => {
     const {id, picture, title, text_color, description, price } = card || {}
- 
+
     const buttonStyle = {
     
         backgroundColor: text_color,
@@ -18,7 +18,7 @@ const SingleDonationCard = ({card}) => {
             swal("Good job!", "Your Donation successful!", "success");
         }else{
             const isExits = DonationItems.find((card) => card.id == id)
-
+        
             if(!isExits){
                 addedDonationArray.push(...DonationItems,card)
             localStorage.setItem('donation',JSON.stringify(addedDonationArray))
