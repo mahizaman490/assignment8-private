@@ -1,8 +1,7 @@
-# React + Vite
+--Here is my t 3 project features--
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ 1.In my project I have created such a feature that when someone clicks on a category, that category will show all the rerated details. 
 
-Currently, two official plugins are available:
+ 2.I have created a function in the detail button of each card that when someone clicks on the button, a sweet alert will be shown, and it will be added to the donation page 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ 3.I have added one more interesting thing in this project, that is a pie chart, donation  The chart will show based on the quantity

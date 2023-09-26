@@ -17,7 +17,7 @@ const CardDonation = () => {
 
     }, [id, Cards])
 
-    console.log(card)
+   
     return (
        <div>
         <SingleDonationCard card={card}></SingleDonationCard>
